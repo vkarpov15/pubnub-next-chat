@@ -40,7 +40,7 @@ export default class extends React.Component {
     });
   }
 
-  componentDidUnmount() {
+  componentWillUnmount() {
     this.pubnub.unsubscribe();
   }
 
