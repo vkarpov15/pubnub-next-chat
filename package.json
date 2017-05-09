@@ -1,0 +1,19 @@
+{
+  "name": "pubnub-next-chat",
+  "version": "1.0.0",
+  "description": "Live chat using PubNub and Next.js",
+  "author": "Valeri Karpov <val@karpov.io>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "next": "2.2.0",
+    "pubnub": "4.8.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "superagent": "3.5.2"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
